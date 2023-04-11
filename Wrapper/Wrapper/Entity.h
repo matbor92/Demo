@@ -5,35 +5,11 @@
 using namespace System;
 namespace CLI
 {
-    public ref class Entity : public ManagedObject<Core::Entity>
+    public ref class Calculator : public ManagedObject<Core::Calculator>
     {
     public:
 
-        Entity(String^ name, float xPos, float yPos);
-        void Move(float deltaX, float deltaY);
-        property float XPosition
-        {
-        public:
-            float get()
-            {
-                return m_Instance->GetXPosition();
-            }
-        private:
-            void set(float value)
-            {
-            }
-        }
-        property float YPosition
-        {
-        public:
-            float get()
-            {
-                return m_Instance->GetYPosition();
-            }
-        private:
-            void set(float value)
-            {
-            }
-        }
+        Calculator(float a, float b);
+        array<float>^ calculate();
     };
 }

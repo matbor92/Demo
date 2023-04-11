@@ -1,17 +1,19 @@
 #pragma once
 namespace Core
 {
-    class Entity
+    class Calculator
     {
     public:
-        const char* m_Name;
     private:
-        float m_XPos, m_YPos;
+        float m_a, m_b;
+        float results_[4] = { 0.0f };
     public:
-        Entity(const char* name, float xPos, float yPos);
+        Calculator(float a, float b);
 
-        void Move(float deltaX, float deltaY);
-        inline float GetXPosition() const { return m_XPos; };
-        inline float GetYPosition() const { return m_YPos; };
+        float* calculate();
+        void sum();
+        void diff();
+        void prod();
+        void quot();
     };
 }

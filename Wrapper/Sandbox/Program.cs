@@ -4,11 +4,17 @@ namespace Sandbox
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Entity e = new Entity("The Wallman", 20, 35);
-            e.Move(5, -10);
-            Console.WriteLine(e.XPosition + " " + e.YPosition);
+            //Creating a native class object
+            Calculator e = new Calculator(20, 35);
+            //receving table of floats, created in Native project,
+            //and corverted to C# table, by wrapper
+            float[] myArray = new float[4];
+            myArray = e.calculate();
+            //Displaying the results
+            Console.WriteLine(string.Join(", ", myArray));
             Console.Read();
         }
     }
