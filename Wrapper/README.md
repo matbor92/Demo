@@ -2,10 +2,13 @@
 
 This project is a C++ library that contains a calculator class capable of performing basic mathematical operations.
 The C++ code is compiled into a static library, which is then utilized in a C# project through a C++/CLI wrapper.
-Solution consists of 3 project
--Native, which is a native C++ class
--Wrapper, which a C++/CLI wrapper
--Sandbox, which is a C# project from where you input a data to a Native class, and where the output of Native class is being received by a wrapper.
+Solution consists of 3 project  
+
+-Native, which is a native C++ class  
+
+-Wrapper, which a C++/CLI wrapper  
+
+-Sandbox, which is a C# project from where you input a data to a Native class, and where the output of Native class is being received by a wrapper.  
 
 Operations in C++ are being executed in threads, only for demonstration purposes.
 
