@@ -1,10 +1,10 @@
 ## Description
 
 Project consists of 4 files
--CreateDataset.py creates a random dataset of 10,000 vectors. Each vector consists of 40 elements, where the first 39 are features, and the 40th element is the expected outcome.
--NeuralNetwork.py is where the layers of the neural network are defined.
--trainer.py is the main file of the project. It consists of a training loop and a testing loop.
--visualization.py is a simple script used to print out learning diagrams.
+*CreateDataset.py creates a random dataset of 10,000 vectors. Each vector consists of 40 elements, where the first 39 are features, and the 40th element is the expected outcome.
+*NeuralNetwork.py is where the layers of the neural network are defined.
+*trainer.py is the main file of the project. It consists of a training loop and a testing loop.
+*visualization.py is a simple script used to print out learning diagrams.
 
 ## Requirements
 
