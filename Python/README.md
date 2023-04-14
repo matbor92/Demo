@@ -13,7 +13,7 @@ Project consists of 4 files
 ## Requirements
 
 - Python3.7+
-- [Biblioteka pytorch](https://pytorch.org/get-started/locally/). As a Compute Platform it is recommended to choose CPU as it is smaller.
+- [Pytorch](https://pytorch.org/get-started/locally/). As a Compute Platform it is recommended to choose CPU as it is smaller.
 
 ## Usage
 
